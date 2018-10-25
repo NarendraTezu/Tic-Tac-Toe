@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>problem 1 </title>
+    <link rel="stylesheet" href="a.css">
+    <script src="a.js"></script>
+     <meta charset="UTF-8">  
+</head>
+<body>
+<div id="all">
+    <div id = "one">
+        <h2>Welcome To Ekagga Technology & Services Pvt Ltd.</h2>
+        <p><b>For play Tic Tac Toe game click the button.</b></p>
+        <button id="button1" onclick="myFunction();disableButton()">Click Here</button>
+    </div>
+
+    <div id="two">
+
+
+        <div id="two-one-one">
+            <div>
+                <table>
+            		<tr>
+            			<td id="0" onclick="clicked(this.id)"></td>
+            			<td id="1" onclick="clicked(this.id)"></td>
+            			<td id="2" onclick="clicked(this.id)"></td>
+            		</tr>
+            		<tr>
+            			<td id="3" onclick="clicked(this.id)"></td>
+            			<td id="4" onclick="clicked(this.id)"></td>
+            			<td id="5" onclick="clicked(this.id)"></td>
+            		</tr>
+            		<tr>
+            			<td id="6" onclick="clicked(this.id)"></td>
+            			<td id="7" onclick="clicked(this.id)"></td>
+            			<td id="8" onclick="clicked(this.id)"></td>
+            		</tr>
+        	   </table>
+            </div>
+            <div id= "#button2">
+                 <button onclick="playAgain()"  id = "button2">PlayAgain!</button> 
+            </div>       
+        </div>
+
+
+        <div id="two-two-one">
+            <div>
+                <p id = "a0"></p>
+                <p id = "a1"></p>
+                <p id = "a2"></p>
+                <p id = "a3"></p>
+                <p id = "a4"></p>
+                <p id = "a5"></p>
+                <p id = "a6"></p>
+                <p id = "a7"></p>
+                <p id = "a8"></p>
+            </div>
+            
+        </div> 
+
+        <div id ="two-three">
+                <p id ="a9">
+                <p id ="b0">
+                <p id ="b1">
+                <p id ="b2">
+                <p id ="b3">
+                <p id ="b4">
+                <p id ="b5">
+                <p id ="b6">
+                <p id ="b7">
+                <p id ="b8">
+            <div id="#two-two-two">
+                <button id="two-two-two" onclick="enableButton();myFunction();playAgain()">Exit</button>    
+            </div>
+        </div>
+    </div> 
+</div>
+</body>
+</html>
